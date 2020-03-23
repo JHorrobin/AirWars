@@ -57,7 +57,7 @@ Release at friday, shit, I'm nervous as fuck
 -- FIXME: Remove
 --resource.AddWorkshop( "1849075184" )
 
-GM.Version = "0.1"
+GM.Version = "1.1.0.0"
 GM.Name = "Air Wars"
 GM.Author = "The HellBox"
 
