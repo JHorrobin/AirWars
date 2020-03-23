@@ -5,10 +5,10 @@ CATEGORY_SPECIALS = 2
 CATEGORY_WEAPONS = 3
 CATEGORY_FLAGS = 4
 
-global_config.build_time = 420
+global_config.build_time = 600
 global_config.fight_time = 900
 global_config.max_founds = 16000
-global_config.prop_limit = 60
+global_config.prop_limit = 120
 global_config.world_center = Vector(0, 0, 0)
 global_config.position_sync_rate = 0.1
 
@@ -47,7 +47,14 @@ global_config.categories[CATEGORY_PROPS].props = {
 			cost = 200
 		},
 	},
-
+	{
+		model = "models/props_phx/construct/metal_plate4x4.mdl",
+		info = {
+			weight = 125,
+			health = 240,
+			cost = 400
+		},
+	},
 	// Glass
 	{
 		model = "models/props_phx/construct/windows/window1x1.mdl",
@@ -99,7 +106,14 @@ global_config.categories[CATEGORY_PROPS].props = {
 			cost = 120
 		},
 	},
-
+	{
+		model = "models/hunter/plates/plate4x4.mdl",
+		info = {
+			weight = 50,
+			health = 160,
+			cost = 240
+		},
+	},
 	// Wood
 	{
 		model = "models/props_phx/construct/wood/wood_panel1x1.mdl",
@@ -125,7 +139,14 @@ global_config.categories[CATEGORY_PROPS].props = {
 			cost = 60
 		},
 	},
-
+	{
+		model = "models/props_phx/construct/wood/wood_panel4x4.mdl",
+		info = {
+			weight = 50,
+			health = 80,
+			cost = 120
+		},
+	},
 	// Decorations
 	{
 		model = "models/props_interiors/vendingmachinesoda01a_door.mdl",
