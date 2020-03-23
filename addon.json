@@ -1,0 +1,16 @@
+{
+	"title"		:	"Airwars",
+	"type"		:	"gamemode",
+	"tags"		:	[ "fun", "build" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+        "*.svn*",
+        "*.git*",
+        "icon.png",
+        "icon24.png",
+        "LICENSE",
+        "README.md"
+	]
+}
