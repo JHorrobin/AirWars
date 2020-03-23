@@ -7,7 +7,6 @@ function ENT:WakePart()
 	local part = world_ships[self:GetAWTeam()].parts[part_id]
 	if part == nil then return end
 	part.subparts = {}
-	//stealing your stand and base because I don't want to make my own atm.
 	part.subparts[1] = {
 		model = "models/aw_rifle/aw_rifle_stand.mdl",
 		angle = Angle(0.0, part.angle.y, 0.0),
