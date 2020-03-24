@@ -22,7 +22,6 @@ global_config.categories = {}
 global_config.categories[CATEGORY_PROPS] = {}
 global_config.categories[CATEGORY_PROPS].name = "Props"
 global_config.categories[CATEGORY_PROPS].props = {
-	// Metal
 	{
 		model = "models/props_phx/construct/metal_plate1.mdl",
 		info = {
@@ -55,7 +54,6 @@ global_config.categories[CATEGORY_PROPS].props = {
 			cost = 400
 		},
 	},
-	// Glass
 	{
 		model = "models/props_phx/construct/windows/window1x1.mdl",
 		info = {
@@ -80,8 +78,6 @@ global_config.categories[CATEGORY_PROPS].props = {
 			cost = 240
 		},
 	},
-
-	// Plastic
 	{
 		model = "models/hunter/plates/plate1x1.mdl",
 		info = {
@@ -114,7 +110,6 @@ global_config.categories[CATEGORY_PROPS].props = {
 			cost = 240
 		},
 	},
-	// Wood
 	{
 		model = "models/props_phx/construct/wood/wood_panel1x1.mdl",
 		info = {
@@ -147,7 +142,6 @@ global_config.categories[CATEGORY_PROPS].props = {
 			cost = 120
 		},
 	},
-	// Decorations
 	{
 		model = "models/props_interiors/vendingmachinesoda01a_door.mdl",
 		info = {
@@ -204,8 +198,6 @@ global_config.categories[CATEGORY_PROPS].props = {
 			cost = 200
 		},
 	},
-
-	// Boxes
 	{
 		model = "models/props_junk/wood_crate001a.mdl",
 		info = {
@@ -267,7 +259,6 @@ global_config.categories[CATEGORY_PROPS].props = {
 global_config.categories[CATEGORY_SPECIALS] = {}
 global_config.categories[CATEGORY_SPECIALS].name = "Specials"
 global_config.categories[CATEGORY_SPECIALS].props = {
-	// Specials
 	{
 		name = "Steering Wheel",
 		model = "models/aw_steering_wheel/aw_steering_wheel.mdl",
@@ -356,7 +347,6 @@ global_config.categories[CATEGORY_SPECIALS].props = {
 global_config.categories[CATEGORY_WEAPONS] = {}
 global_config.categories[CATEGORY_WEAPONS].name = "Weapons"
 global_config.categories[CATEGORY_WEAPONS].props = {
-	// Weapons
 	{
 		name = "Cannon",
 		model = "models/aw_cannon/aw_cannon_full.mdl",
@@ -395,7 +385,7 @@ global_config.categories[CATEGORY_WEAPONS].props = {
 	},
 	{
 		name = "Shotgun",
-		//TODO fix shotgun texture full model.
+		--TODO fix shotgun texture full model.
 		model = "models/aw_shotgun/aw_shotgun_full.mdl",
 		entity = "aw_weapon_shotgun",
 		info = {
