@@ -4,6 +4,6 @@ ENT.Author = "The HellBox"
 ENT.Spawnable = false
 
 ENT.ShootingAngle = Angle()
-ENT.ShootingOffset = 20
-ENT.AmmoAmount = 80
-ENT.Cooldown = 0.05
+ENT.ShootingOffset = 30
+ENT.AmmoAmount = 60
+ENT.Cooldown = 0.1

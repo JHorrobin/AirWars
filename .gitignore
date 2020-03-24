@@ -40,3 +40,4 @@ luac.out
 *.hex
 
 maps/aw_main_v1.bsp
+addon/addon.gma

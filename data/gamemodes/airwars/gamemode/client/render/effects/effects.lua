@@ -44,7 +44,7 @@ net.Receive("aw_play_weapon_effect", function()
 		add_particle(bullet_position, "particles/smokey", 10, 20, 0, 1, 10, angle:Forward(), 0.3, 60)
 	elseif effect_type == EFFECT_TYPE_SHOTGUN then
 		util.ScreenShake( Vector( 0, 0, 0 ), 20 / (LocalPlayer():GetPos() - sound_position):Length(), 3, 1, 8000 )
-		sound.Play( "weapons/shotgun/shotgun_dbl_fire.wav", sound_position, 60 )
+		sound.Play( "weapons/shotgun/shotgun_dbl_fire.wav", sound_position, 5 )
 		table.insert(projectiles, projectile)	
 		add_particle(bullet_position, "particles/flamelet4", 10, 5, 0, 0.4, 100, angle:Forward(), 0.1)
 		add_particle(bullet_position, "particles/smokey", 10, 20, 0, 1, 10, angle:Forward(), 0.3, 60)

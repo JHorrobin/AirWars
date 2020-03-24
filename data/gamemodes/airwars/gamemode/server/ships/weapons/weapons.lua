@@ -15,7 +15,6 @@ end
 -- NOTE: Weapon is just a part
 function AirWars:ShipShoot(ship, weapon, offset, angle, weapon_ent, bullet_amount, spread)	
 	for i=1, bullet_amount do
-		local end_pos = Vector()
 		local angle = angle or Angle()
 		local offset = offset or 0
 

@@ -357,10 +357,10 @@ global_config.categories[CATEGORY_WEAPONS].props = {
 			cost = 500
 		},
 		custom_info = {
-			damage = 80,
-			speed = 2000,
+			damage = 100,
+			speed = 2500,
 			gravity = 3,
-			splash_radius = 70,
+			splash_radius = 80,
 			effect_type = EFFECT_TYPE_CANNON
 		},
 		category = CATEGORY_WEAPONS
@@ -375,8 +375,8 @@ global_config.categories[CATEGORY_WEAPONS].props = {
 			cost = 500
 		},
 		custom_info = {
-			damage = 3,
-			speed = 3000,
+			damage = 1,
+			speed = 3500,
 			gravity = 1,
 			splash_radius = 10,
 			effect_type = EFFECT_TYPE_RIFLE
@@ -394,8 +394,8 @@ global_config.categories[CATEGORY_WEAPONS].props = {
 			cost = 600
 		},
 		custom_info = {
-			damage = 2,
-			speed = 2800,
+			damage = 10,
+			speed = 3000,
 			gravity = 1.25,
 			splash_radius = 5,
 			effect_type = EFFECT_TYPE_SHOTGUN
@@ -413,7 +413,7 @@ global_config.categories[CATEGORY_WEAPONS].props = {
 		},
 		custom_info = {
 			damage = 10,
-			speed = 200,
+			speed = 1000,
 			gravity = 1,
 			splash_radius = 1,
 			effect_type = EFFECT_TYPE_HOOK

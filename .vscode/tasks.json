@@ -13,7 +13,11 @@
             "label": "build-addon",
             "type": "shell",
             "command": "D:\\Steam\\steamapps\\common\\GarrysMod\\bin\\gmad.exe create -folder \"D:\\data\\airwars\\data\" -out \"D:\\data\\airwars\\addon\\addon.gma\"",
-            "problemMatcher": []
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ],
     "inputs": [
