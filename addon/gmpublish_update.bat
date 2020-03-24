@@ -1,0 +1,1 @@
+D:\Steam\steamapps\common\GarrysMod\bin\gmpublish.exe update -addon "D:\data\airwars\addon\addon.gma" -id "2033101349" -changes "Updated backgrounds"

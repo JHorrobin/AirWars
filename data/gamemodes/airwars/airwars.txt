@@ -1,0 +1,14 @@
+"airwars" {
+	"base" "base"
+	"title" "Air Wars"
+	"maps" "^aw_"
+	"menusystem" "1"
+	"version" "0.1.1"
+	"author_name" "JHorrobin"
+	"author_email" "j.horrobin@hotmail.co.uk"
+	"author_url" "https://github.com/JHorrobin"
+	"icon" ""
+	"info" "This is a fork of hellbox's airwars"
+	"hide" "0"
+	"workshopid"	"2033101349"
+}
